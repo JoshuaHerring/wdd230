@@ -1,0 +1,52 @@
+header
+{
+    margin: auto auto;
+    width: 90%;
+    box-shadow: 3px 3px 3px #ccc;
+    border-radius: 10%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+img
+{
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 100%;
+}
+
+#name
+{
+margin: auto 0;
+}
+
+footer
+{
+    width: 90%;
+    margin: auto auto;
+    box-shadow: 3px 3px 3px #ccc;
+    border-radius: 10%;
+    background-color: lightblue;
+}
+
+li
+{
+    margin: 10px auto;
+    font-size: 125%;
+}
+
+.narrow
+{
+    width: 80%;
+}
+
+#lead
+{
+    margin: 0 auto;
+}
+
+h2
+{
+    
+}
