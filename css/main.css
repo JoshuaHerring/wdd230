@@ -1,12 +1,27 @@
+/* 
+font-family: 'Bungee Spice', cursive;
+font-family: 'Raleway', sans-serif;
+ */
+
 header
 {
     margin: auto auto;
     width: 90%;
     box-shadow: 3px 3px 3px #ccc;
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: teal;
     display: grid;
     grid-template-columns: 40% 60%;
+}
+
+h1, h2
+{
+    font-family: 'Bungee Spice', cursive; 
+}
+
+p
+{
+    font-family: 'Raleway', sans-serif;  
 }
 
 img
@@ -23,15 +38,18 @@ margin: auto 0;
 
 footer
 {
+    color: aliceblue;
+    text-align: center;
     width: 90%;
     margin: auto auto;
     box-shadow: 3px 3px 3px #ccc;
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: teal;
 }
 
 li
 {
+    font-family: 'Raleway', sans-serif; 
     margin: 10px auto;
     font-size: 125%;
 }
