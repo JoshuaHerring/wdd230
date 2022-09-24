@@ -1,0 +1,17 @@
+@media (min-width: 800px)
+
+{
+    
+.main_div
+{
+    grid-template-columns: 1fr 1fr;
+}
+
+#final
+{
+    grid-column: span 2;
+}
+
+
+
+}

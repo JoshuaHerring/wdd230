@@ -1,0 +1,24 @@
+@media (min-width: 1200px)
+
+{
+    .sub
+    {
+        margin: 0 4vw;
+    }
+
+
+    .main_div
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #final
+    {
+        grid-column: span 1;
+    }
+
+    p
+    {
+        margin: 0 5vw;
+    }
+}
