@@ -1,6 +1,12 @@
 body
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgrey;
+}
+
+footer
+{
+    margin-top: 5%;
 }
 
 h1 h2
@@ -35,10 +41,17 @@ img
     border: 3px solid black;
 }
 
+.accent3
+{
+    margin: 0 0;
+    background-color: lightgrey;
+    border: solid 3px black;
+}
+
 .color_grid
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .head_color
@@ -76,4 +89,9 @@ h1
     background-color: grey;
     margin: 0 auto;
     color: white;
+}
+
+.persona_img
+{
+    width: 20%;
 }
