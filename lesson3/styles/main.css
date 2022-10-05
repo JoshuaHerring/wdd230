@@ -76,7 +76,7 @@ nav
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    padding: 12px;
 }
 
 a
@@ -90,6 +90,8 @@ h1
     background-color: #59585F;
     margin: 0 auto;
     color: white;
+    padding: 12px;
+
 }
 
 .persona_img
@@ -106,10 +108,17 @@ button
     border: solid 1px black;
 }
 
+button:hover
+{
+    background-color: #1B4571;
+}
+
 .button_div
 {
     background-color: #59585F;
 }
+
+
 
 @media (max-width: 580px)
 {
