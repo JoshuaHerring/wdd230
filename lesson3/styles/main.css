@@ -37,14 +37,14 @@ img
 .accent2
 {
     margin: 0 0;
-    background-color: grey;
+    background-color: #59585F;
     border: 3px solid black;
 }
 
 .accent3
 {
     margin: 0 0;
-    background-color: lightgrey;
+    background-color: #59585F;
     border: solid 3px black;
 }
 
@@ -71,22 +71,23 @@ img
 
 nav
 {
-    background-color: grey;
-    text-align: center;
-    align-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 50px;
+    background-color: #59585F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
 }
 
 a
 {
+    padding: 3px 0;
     color: white;
 }
 
 h1
 {
-    background-color: grey;
+    background-color: #59585F;
     margin: 0 auto;
     color: white;
 }
@@ -94,4 +95,36 @@ h1
 .persona_img
 {
     width: 20%;
+}
+
+button
+{
+    font-size: 23px;
+    display: none;
+    color: white;
+    background-color: #59585F;
+    border: solid 1px black;
+}
+
+.button_div
+{
+    background-color: #59585F;
+}
+
+@media (max-width: 580px)
+{
+    nav
+    {
+        flex-direction: column;
+    }
+
+    .vanish
+    {
+        display: none;
+    }
+
+    button
+    {
+        display: block;
+    }
 }
