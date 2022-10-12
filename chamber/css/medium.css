@@ -1,0 +1,35 @@
+@media (min-width: 650px)
+{
+    main
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .spotlight_div
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wide_med
+    {
+        grid-column: 1/4;
+    }
+
+    .join
+    {
+        display: block;
+    }
+
+    .event
+    {
+        grid-row: 6;
+        grid-column: span 2;
+    }
+
+    .weather
+    {
+        grid-row: 6;
+    }
+
+}
