@@ -71,8 +71,6 @@ button:hover
     display: none;
 }
 
-
-
 h1
 {
     border: dashed 2px black;
@@ -95,6 +93,18 @@ h1
 .spotlight_3
 {
     display: none;
+}
+
+.map_link
+{
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+a:hover
+{
+    background-color: #d3d3d3;
+    color: #000000;
 }
 
 
