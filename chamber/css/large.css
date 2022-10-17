@@ -28,7 +28,7 @@
         grid-row: 3/4;
     }
 
-    .hero
+    .hero_div
     {
         height: 100%;
         grid-column: 2/4;

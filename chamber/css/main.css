@@ -7,6 +7,7 @@ body
 main
 {
     display: grid;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
 }
 
@@ -107,6 +108,49 @@ a:hover
     color: #000000;
 }
 
+.hero_div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+.hero_img
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 2px dashed black;
+}
+
+.hero
+{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: transparent;
+    border: none;
+}
+
+.hero_button
+{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.pop_up
+{
+    margin: 5px 0;
+    border: solid 2px black;
+    background-color: #1B4571;
+    color: white;
+}
+
+.pop_up_vanish
+{
+    display: none;
+}
 
 @media (max-width: 1000px)
 {
