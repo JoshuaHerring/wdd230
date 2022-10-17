@@ -49,4 +49,9 @@
         padding: 10px 10px;
     }
 
+    .hero_button
+    {
+        display: block;
+    }
+
 }
