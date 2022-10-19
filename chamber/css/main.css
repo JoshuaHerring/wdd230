@@ -72,7 +72,7 @@ button:hover
     display: none;
 }
 
-h1
+.section
 {
     border: dashed 2px black;
     width: 100%;
