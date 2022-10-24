@@ -37,7 +37,19 @@
 
     <main>
         <div class="hero_div wide_med">
-        <img class="hero_img" src="./images/large_compressed_hero.jpg" srcset="./images/small_compressed_hero.jpg 3715w, ./images/med_compressed_hero.jpg 4807w, ./images/large_compressed_hero.jpg 5652w" sizes="(min-width: 650) 3715px, (min-width: 850) 4807px, 5652px" alt="Backround hero image">
+
+
+            <picture>
+
+                <source media="(max-width:650px)" srcset="./images/small_compressed_hero.jpg">
+                <source media="(max-width:800px)" srcset="./images/med_compressed_hero.jpg">
+                <source media="(max-width: 1600px)" srcset="./images/large_compressed_hero.jpg">
+
+                <img class="hero_img" src="./images/small_compressed_hero.jpg">
+            </picture>
+
+
+
         <h1 class="hero">Welcome to Tooele City Chamber of Commerce</h1>
         <button class="hero_button">Join</button>
         </div>

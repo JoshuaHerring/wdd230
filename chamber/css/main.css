@@ -115,13 +115,20 @@ a:hover
     position: relative;
 }
 
+picture
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
 .hero_img
 {
-    height: 100%;
+    height: auto; /*chnage this back to 100% */
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/2;
     border: 2px dashed black;
+    object-fit: cover;
 }
 
 .hero
