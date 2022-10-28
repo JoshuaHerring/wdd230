@@ -54,3 +54,10 @@ const io = new IntersectionObserver(
         pimages.forEach(image => {
             io.observe(image);
         })
+
+
+
+
+        localStorage.setItem('msg1', 'Hello Permenant');
+
+        sessionStorage.setItem('msg2', 'Hi temporary');

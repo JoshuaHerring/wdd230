@@ -32,3 +32,9 @@ if (day == 1 || day == 2)
 }
 
 console.log(day);
+
+
+
+localStorage.setItem('msg1', 'Hello Permenant');
+
+sessionStorage.setItem('msg2', 'Hi temporary');
