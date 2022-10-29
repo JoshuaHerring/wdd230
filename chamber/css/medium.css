@@ -32,6 +32,21 @@
         grid-row: 6;
     }
 
+    /* discover page starts here */
+
+    .discover_image
+    {
+        filter: grayscale(100%);
+        transition: all 2s ease;
+    }
+
+    .discover_image:hover
+    {
+        box-shadow: 5px 5px #59585F;
+        filter: grayscale(0%);
+        transition: 2s ease;
+    }
+
     
 
 }
