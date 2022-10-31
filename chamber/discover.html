@@ -7,9 +7,11 @@
     <title>Discover</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/large.css">
     <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
 </head>
+<body>
 
 <header>
     <div class="sub">
@@ -29,10 +31,9 @@
             <h2>Join</h2>
             <p>Come join us today at 2pm</p>
         </div>
+        <h1>Last Vist: <span id="diff"></span> days ago</h1>
 </header>
-
-<body>
-    <h1>Last Vist: <span id="diff"></span> days ago</h1>
+<main>
     <div class="discover_image_div">
     <img class="lazy discover_image" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/hinton_dental.jpg" alt="Picture of the hinton family dnetistry">
     <p>A photo through the door of the hinton family dental dentistry</p>
@@ -77,20 +78,22 @@
     <img class="lazy discover_image discover_image_div" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/charritos_tooele.jpg" alt="The local mexican restraunt">
     <p>Our personal charritos mexican restraunt</p>
     </div>
+</main>
+
+    
+    <footer>
+        <div class="sub">
+            <img src="./images/logo.webp" alt="Logo">
+            <h2>Tooele Chamber of Commerce</h2>
+            <p>tooele@tooelecc.org</p>
+            <p>208 557 4289</p>
+            <p>&copy; <span id="date"></span>Joshua D. Herring</p>
+            <p>Last updated: <span id="last_updated"></span></p>
+            <a class="map_link" href="https://goo.gl/maps/13KKaTk8Mctpra6BA">Location map</a>
+        </div>
+    </footer>
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/lazy_load.js"></script>
 </body>
-
-<footer>
-    <div class="sub">
-        <img src="./images/logo.webp" alt="Logo">
-        <h2>Tooele Chamber of Commerce</h2>
-        <p>tooele@tooelecc.org</p>
-        <p>208 557 4289</p>
-        <p>&copy; <span id="date"></span>Joshua D. Herring</p>
-        <p>Last updated: <span id="last_updated"></span></p>
-        <a class="map_link" href="https://goo.gl/maps/13KKaTk8Mctpra6BA">Location map</a>
-    </div>
-</footer>
-
-<script src="./js/main.js"></script>
-<script src="./js/lazy_load.js"></script>
 </html>
