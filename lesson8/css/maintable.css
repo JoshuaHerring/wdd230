@@ -1,0 +1,58 @@
+body
+{
+    font-family: Ubuntu, sans-serif;
+}
+
+tr:nth-child(odd)
+{
+    background-color: antiquewhite;
+    font-style: italic;
+}
+
+tr:nth-child(even)
+{
+    background-color: lightsteelblue;
+}
+
+thead th, tfoot td
+{
+    background-color: lightgrey;
+}
+
+td, table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+thead td, .darker
+{
+    background-color: maroon;
+    color: white;
+}
+
+table
+{
+    margin: 100px auto;
+    box-shadow: 5px 5px lightgrey;
+}
+
+tfoot tr td
+{
+    padding: 5px;
+}
+
+@media (max-width:600px)
+{
+    td
+    {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
