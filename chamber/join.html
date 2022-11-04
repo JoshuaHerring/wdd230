@@ -44,7 +44,7 @@
                 Last Name* <input type="text" name="lname" required>
             </label>
             <label>
-                Business Position* (Only spaces, letters and dashes are allowed) <input type="text" name="position" required pattern="[- A-Za-z]+" minlength="7">
+                Business Position (Only spaces, letters and dashes are allowed) <input type="text" name="position" pattern="[- A-Za-z]+" minlength="7">
             </label>
             <label>
                 E-mail <input type="email" name="email" placeholder="someone1234@gmail.com">
@@ -58,8 +58,8 @@
         </fieldset>
 
         <fieldset class="flexBox">
-            <div>
             <legend>Membership</legend>
+            <div>
 
             <label>
                 NP Membership<input type="radio" name="membership">
@@ -114,9 +114,9 @@
             </label>
         </fieldset>
         <!-- You need a hidden field that contains the date and time the form was loaded -->
-        <input id="date" type="hidden" name="todaydate">
-        <label>
-            Propose Business <input type="submit">
+        <input id="formDate" type="hidden" name="todaydate">
+        <label class="submit">
+            Propose Business <input class="submit" type="submit">
         </label>
 
     </form>

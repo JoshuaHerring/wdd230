@@ -223,3 +223,10 @@ form input:required:valid
 {
     border-left: green solid 6px;
 }
+
+.submit
+{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

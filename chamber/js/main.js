@@ -67,4 +67,4 @@ function calculate_difference()
 // Join page date handling
 const date = new Date();
 
-document.querySelector("#date").value = date;
+document.querySelector("#formDate").value = date;
