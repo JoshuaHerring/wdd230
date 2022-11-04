@@ -24,8 +24,7 @@
                 Last Name* <input type="text" name="lname" required>
             </label>
             <label>
-                <!-- Needs regular expression added or types of characters limited -->
-                Business Position <input type="text" name="position">
+                Business Position* (Only spaces, letters and dashes are allowed) <input type="text" name="position" required pattern="[- A-Za-z]+" minlength="7">
             </label>
             <label>
                 E-mail* <input type="email" name="email" placeholder="someone1234@gmail.com" required>
