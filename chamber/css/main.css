@@ -206,3 +206,20 @@ textarea
 {
     display: block;
 }
+
+.flexBox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form input:required
+{
+    border-left: red solid 6px;
+}
+
+form input:required:valid
+{
+    border-left: green solid 6px;
+}

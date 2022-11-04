@@ -62,3 +62,9 @@ function calculate_difference()
 
     localStorage.setItem("last_visit", Date.now());
 }
+
+
+// Join page date handling
+const date = new Date();
+
+document.querySelector("#date").value = date;

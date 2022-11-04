@@ -9,9 +9,29 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
 </head>
 <body>
 
+    <header>
+        <div class="sub">
+            <img src="./images/logo.webp" alt="Logo">
+            <h2>Tooele Chamber of Commerce</h2>
+        </div>
+        <div class="button_div">
+            <button id="button">&#9776;</button>
+        </div>
+            <nav id="dropDown">
+                <a href="./index.html">Home</a>
+                <a href="./discover.html">Discover</a>
+                <a href="./join.html">Join Us</a>
+                <a href="">Typography</a>
+            </nav>
+            <div class="pop_up pop_up_vanish" id="pop">
+                <h2>Join</h2>
+                <p>Come join us today at 2pm</p>
+            </div>
+    </header>
 
     <form method="get" action="./thank_you.html">
         <fieldset>
@@ -27,7 +47,7 @@
                 Business Position* (Only spaces, letters and dashes are allowed) <input type="text" name="position" required pattern="[- A-Za-z]+" minlength="7">
             </label>
             <label>
-                E-mail* <input type="email" name="email" placeholder="someone1234@gmail.com" required>
+                E-mail <input type="email" name="email" placeholder="someone1234@gmail.com">
             </label>
             <label>
                 Phone Number* <input type="tel" name="phone" placeholder="1234567890" required>
@@ -37,7 +57,8 @@
             </label>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="flexBox">
+            <div>
             <legend>Membership</legend>
 
             <label>
@@ -52,6 +73,38 @@
             <label>
                 Gold Membership <input type="radio" name="membership">
             </label>
+            </div>
+
+            <div>
+                <h2>NP Membership</h2>
+                <ul>
+                    <li>For non profit organizations and there is no fee</li>
+                </ul>
+
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>15% discount on events</li>
+                    <li>10% discount on advertising</li>
+                    <li>Fee of $50/month</li>
+                </ul>
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>25% discount on events</li>
+                    <li>15% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>Fee of $100/month</li>
+                </ul>
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>5 free featured ads per year</li>
+                    <li>1 free training per quarter</li>
+                    <li>Fee of $250/month</li>
+                </ul>
+
+            </div>
         </fieldset>
         
         <fieldset>
@@ -61,13 +114,26 @@
             </label>
         </fieldset>
         <!-- You need a hidden field that contains the date and time the form was loaded -->
+        <input id="date" type="hidden" name="todaydate">
         <label>
             Propose Business <input type="submit">
         </label>
 
     </form>
 
+    <footer>
 
+        <div class="sub">
+            <img src="./images/logo.webp" alt="Logo">
+            <h2>Tooele Chamber of Commerce</h2>
+            <p>tooele@tooelecc.org</p>
+            <p>208 557 4289</p>
+            <p>&copy; <span id="date"></span>Joshua D. Herring</p>
+            <p>Last updated: <span id="last_updated"></span></p>
+            <a class="map_link" href="https://goo.gl/maps/13KKaTk8Mctpra6BA">Location map</a>
+        </div>
+    </footer>
 
+    <script src="./js/main.js"></script>
 </body>
 </html>
