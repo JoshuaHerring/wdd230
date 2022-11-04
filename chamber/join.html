@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+<body>
+
+
+    <form method="get" action="./thank_you.html">
+        <fieldset>
+            <legend>Applicant information</legend>
+
+            <label>
+                First Name* <input type="text" name="fname" required>
+            </label>
+            <label>
+                Last Name* <input type="text" name="lname" required>
+            </label>
+            <label>
+                <!-- Needs regular expression added or types of characters limited -->
+                Business Position <input type="text" name="position">
+            </label>
+            <label>
+                E-mail* <input type="email" name="email" placeholder="someone1234@gmail.com" required>
+            </label>
+            <label>
+                Phone Number* <input type="tel" name="phone" placeholder="1234567890" required>
+            </label>
+            <label>
+                Business Name* <input type="text" name="businessName" required>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership</legend>
+
+            <label>
+                NP Membership<input type="radio" name="membership">
+            </label>
+            <label>
+                Bronze Membership <input type="radio" name="membership">
+            </label>
+            <label>
+                Silver Membership <input type="radio" name="membership">
+            </label>
+            <label>
+                Gold Membership <input type="radio" name="membership">
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Business Description</legend>
+            <label>
+                Description of your business <textarea name="businessDescription" cols="30" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <!-- You need a hidden field that contains the date and time the form was loaded -->
+        <label>
+            Propose Business <input type="submit">
+        </label>
+
+    </form>
+
+
+
+</body>
+</html>
