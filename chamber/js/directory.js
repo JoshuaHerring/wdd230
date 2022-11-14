@@ -27,7 +27,7 @@ function displayBusinesses(item)
     h2.innerHTML = item.name
     birthday.innerHTML = item.address
     birthplace.innerHTML = item.phone
-    img.setAttribute('src', item.imageurl)
+    img.setAttribute('src', item.logo)
     img.setAttribute('alt', item.name + " logo")
     website.innerHTML = (item.name + " Website Link")
     website.setAttribute('src', item.website)
