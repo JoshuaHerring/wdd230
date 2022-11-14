@@ -12,14 +12,14 @@
         "address": "29 N Main St",
         "phone": "(435) 833-9988",
         "website": "https://virgsfamilyrestaurant.com/",
-        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/virgs.jpg"
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/virgs.png"
       },
       {
         "name": "Simply Bliss BBQ",
         "address": "88 S Tooele Blvd",
         "phone": "(435) 248-1822",
         "website": "http://www.simplyblisscafe.com/",
-        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/simply_bliss.jpg"
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/simply_bliss.png"
       },
       {
         "name": "Jim's Family Restraunt",
@@ -47,28 +47,28 @@
         "address": "1288 N Main St",
         "phone": "(435) 843-5510",
         "website": "http://apolloburgers.com/",
-        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/apollo.jpg"
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/apollo.png"
       },
       {
         "name": "Chubby's Cafe Tooele",
         "address": "1211 N Main St",
         "phone": "(435) 228-6788",
         "website": "https://www.chubbyscafeut.com/",
-        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/chubby.jpg"
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/chubby.webp"
       },
       {
         "name": "La Fountain Mexiacn Restruant",
         "address": "1501 N Main St",
         "phone": "(435) 882-3000",
         "website": "http://lafountainmexutah.com/",
-        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/fountain.jpg"
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/fountain.png"
       },
       {
         "name": "Neighborhood Wing Co.",
         "address": "1193 N Main St #A",
         "phone": "(435) 249-0267",
         "website": "https://neighborhood-wing-company.square.site/",
-        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/wing.jpg"
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/wing.webp"
       },
       {
         "name": "Harold B.",
