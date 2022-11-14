@@ -1,6 +1,5 @@
 .cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     text-align: center;
     justify-content: center;
 }
@@ -20,4 +19,24 @@ h2, h1 {
 img {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
+}
+
+@media (min-width: 650px)
+{
+    .cards
+    {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 200px;
+        padding-right: 20%;
+    }
+}
+
+@media (min-width: 800px)
+{
+    .cards
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 550px;
+        padding-right: 25%;
+    }
 }
