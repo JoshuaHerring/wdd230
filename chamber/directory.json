@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      {
+        "name": "Joseph",
+        "address": "Smith",
+        "phone": "23 December 1805",
+        "website": "27 June 1844",
+        "logo": 14
+      },
+      {
+        "name": "Brigham",
+        "address": "Young",
+        "phone": "01 June 1801",
+        "website": "29 August 1877",
+        "logo": 30
+      },
+      {
+        "name": "John",
+        "address": "Taylor",
+        "phone": "01 November 1808",
+        "website": "25 July 1887",
+        "logo": 6
+      },
+      {
+        "name": "Wilford",
+        "address": "Woodruff",
+        "phone": "01 March 1807",
+        "website": "02 September 1898",
+        "logo": 9
+      },
+      {
+        "name": "Lorenzo",
+        "address": "Snow",
+        "phone": "03 April 1814",
+        "website": "19 October 1901",
+        "logo": 3
+      },
+      {
+        "name": "Joseph F.",
+        "address": "Smith",
+        "phone": "12 November 1838",
+        "website": "19 November 1918",
+        "logo": 17
+      },
+      {
+        "name": "Heber J.",
+        "address": "Grant",
+        "phone": "22 November 1856",
+        "website": "14 May 1945",
+        "logo": 23
+      },
+      {
+        "name": "George A.",
+        "address": "Smith",
+        "phone": "4 April 1870",
+        "website": "4 April 1951",
+        "logo": 6
+      },
+      {
+        "name": "David O.",
+        "address": "McKay",
+        "phone": "8 September 1873",
+        "website": "18 January 1970",
+        "logo": 19
+      },
+      {
+        "name": "Joseph Fielding",
+        "address": "Smith",
+        "phone": "19 July 1876",
+        "website": "2 July 1972",
+        "logo": 1
+      },
+      {
+        "name": "Harold B.",
+        "address": "Lee",
+        "phone": "28 March 1899",
+        "website": "26 December 1973",
+        "logo": 1
+      },
+      {
+        "name": "Spencer W.",
+        "address": "Kimball",
+        "phone": "28 March 1895",
+        "website": "5 November 1985",
+        "logo": 12
+      }
+    ]
+  }

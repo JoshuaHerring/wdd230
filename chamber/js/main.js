@@ -11,7 +11,7 @@ function display()
 
 button.addEventListener("click", display);
 
-var date = new Date();
+const date = new Date();
 console.log(date);
 var year = date.getFullYear();
 console.log(year);
@@ -50,7 +50,7 @@ function calculate_difference()
 {
     let last_date = localStorage.getItem("last_visit");
     let current_date = Date.now();
-    // let current_date = new Date("2023-03-24");
+
 
     let difference = current_date - last_date;
     console.log(current_date);
@@ -65,6 +65,5 @@ function calculate_difference()
 
 
 // Join page date handling
-const date = new Date();
-
-document.querySelector("#formDate").value = date;
+const currentDate = new Date();
+document.querySelector("#formDate").value = currentDate;
