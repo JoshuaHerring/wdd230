@@ -71,18 +71,18 @@
         "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/wing.webp"
       },
       {
-        "name": "Harold B.",
-        "address": "Lee",
-        "phone": "28 March 1899",
-        "website": "26 December 1973",
-        "logo": 1
+        "name": "Tacos Tooele",
+        "address": "515 N Main St",
+        "phone": "(801) 414-5026",
+        "website": "https://tacos-tooele.negocio.site/?utm_source=gmb&utm_medium=referral",
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/taco.jpg"
       },
       {
-        "name": "Spencer W.",
-        "address": "Kimball",
-        "phone": "28 March 1895",
-        "website": "5 November 1985",
-        "logo": 12
+        "name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "address": "162 N Main St",
+        "phone": "(435) 882-5031",
+        "website": "https://www.zaxbys.com/locations/ut/tooele/1064-n-main-st/?utm_source=local&utm_medium=organic&utm_campaign=fb",
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/zaxby.svg"
       }
     ]
   }
