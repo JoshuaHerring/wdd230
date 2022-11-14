@@ -21,7 +21,7 @@ function displayBusinesses(item)
     let birthday = document.createElement('p')
     let birthplace = document.createElement('p')
     let img = document.createElement('img')
-    let website = document.createElement("p")
+    let website = document.createElement("a")
 
 
     h2.innerHTML = item.name
