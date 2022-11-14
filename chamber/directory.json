@@ -8,18 +8,18 @@
         "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/hinton_dental.jpg"
       },
       {
-        "name": "Brigham",
-        "address": "Young",
-        "phone": "01 June 1801",
-        "website": "29 August 1877",
-        "logo": 30
+        "name": "Virgs",
+        "address": "29 N Main St",
+        "phone": "(435) 833-9988",
+        "website": "https://virgsfamilyrestaurant.com/",
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/virgs.jpg"
       },
       {
-        "name": "John",
-        "address": "Taylor",
-        "phone": "01 November 1808",
-        "website": "25 July 1887",
-        "logo": 6
+        "name": "Simply Bliss BBQ",
+        "address": "88 S Tooele Blvd",
+        "phone": "(435) 248-1822",
+        "website": "http://www.simplyblisscafe.com/",
+        "logo": "https://joshuaherring.github.io/wdd230/chamber/json_images/simply_bliss.jpg"
       },
       {
         "name": "Wilford",
