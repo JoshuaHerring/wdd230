@@ -47,6 +47,27 @@
         transition: 2s ease;
     }
 
+/* directory page starts here */
+
+/* div cards, section, h2, p, p, img, a */
+
+    .cards
+    {
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .list_form
+    {
+        display: block;
+    }
+
+    .button_holder
+{
+    grid-column: 1/4;
+}
     
 
 }

@@ -17,6 +17,7 @@ async function getBusinesses(requestURL)
 function displayBusinesses(item)
 {
     let card = document.createElement('section')
+    card.setAttribute("class", "sections")
     let h2 = document.createElement('h2')
     let birthday = document.createElement('p')
     let birthplace = document.createElement('p')
@@ -41,4 +42,36 @@ function displayBusinesses(item)
     document.querySelector('.cards').appendChild(card)
 }
 
+function displayCardForm()
+{
+    card = document.querySelector(".cards")
+    card.classList.add("card_form")
+    card.classList.remove("list_form")
+}
+
+function displayListForm()
+{
+    card = document.querySelector(".cards")
+    card.classList.add("list_form")
+    card.classList.remove("card_form")
+    
+}
+
+
+function handleEventListner()
+{
+    let listButton = document.getElementById("list_button")
+    let cardButton = document.getElementById("card_button")
+    listButton.addEventListener("click", displayListForm)
+    cardButton.addEventListener("click", displayCardForm)
+}
+let width = window.innerWidth
+console.log(width)
+
 getBusinesses(url)
+displayCardForm()
+if (width >= 650 && width <= 800)
+{
+    displayListForm()
+}
+handleEventListner()
