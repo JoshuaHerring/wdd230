@@ -30,6 +30,7 @@ function displayBusinesses(item)
     birthplace.innerHTML = item.phone
     img.setAttribute('src', item.logo)
     img.setAttribute('alt', item.name + " logo")
+    img.setAttribute('class', 'images')
     website.innerHTML = (item.name + " Website Link")
     website.setAttribute('src', item.website)
 
@@ -45,17 +46,26 @@ function displayBusinesses(item)
 function displayCardForm()
 {
     card = document.querySelector(".cards")
+    images = document.querySelectorAll(".images");
+    sections = document.querySelectorAll(".sections");
     card.classList.add("card_form")
-    card.classList.remove("list_form")
+    card.classList.remove("block")
+    images.forEach((img) =>{img.classList.remove("gone")});
+    sections.forEach((section) =>{section.classList.remove("list_form")});
 }
 
 function displayListForm()
 {
-    card = document.querySelector(".cards")
-    card.classList.add("list_form")
-    card.classList.remove("card_form")
-    
+    card = document.querySelector(".cards");
+    images = document.querySelectorAll(".images");
+    sections = document.querySelectorAll(".sections");
+    card.classList.add("block");
+    card.classList.remove("card_form");
+    images.forEach((img) =>{img.classList.add("gone")});
+    sections.forEach((section) =>{section.classList.add("list_form")});
 }
+
+
 
 
 function handleEventListner()
@@ -66,7 +76,6 @@ function handleEventListner()
     cardButton.addEventListener("click", displayCardForm)
 }
 let width = window.innerWidth
-console.log(width)
 
 getBusinesses(url)
 displayCardForm()

@@ -240,6 +240,7 @@ form input:required:valid
     display: block;
 }
 
+
 .cards section
 {
     background-color: #59585F;
@@ -274,4 +275,17 @@ form input:required:valid
 {
     display: flex;
     justify-content: center;
+}
+
+.gone
+{
+    display: none;
+}
+
+.list_form
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* grid-column: 1/5; */
 }
