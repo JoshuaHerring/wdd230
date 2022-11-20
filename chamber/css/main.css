@@ -289,3 +289,15 @@ form input:required:valid
     width: 100%;
     /* grid-column: 1/5; */
 }
+
+/* css for weather item */
+#weather_icon
+{
+    width: 50px;
+}
+
+#temp_sect
+{
+    display: inline;
+    font-size: 50px;
+}
