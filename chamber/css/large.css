@@ -4,6 +4,12 @@
     {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    .hero_img
+    {
+        height: 100%;
+    }
+
     .spotlight_3
     {
         display: block;
