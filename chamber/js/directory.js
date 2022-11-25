@@ -11,6 +11,10 @@ async function getBusinesses(requestURL)
         const businesses = jsonObject['businesses']
         console.log(businesses[0].name)
         businesses.forEach(displayBusinesses)
+        if (width >= 650 && width <= 800)
+            {
+                displayListForm()
+            }
     }
 }
 
@@ -79,8 +83,4 @@ let width = window.innerWidth
 
 getBusinesses(url)
 displayCardForm()
-if (width >= 650 && width <= 800)
-{
-    displayListForm()
-}
 handleEventListner()
