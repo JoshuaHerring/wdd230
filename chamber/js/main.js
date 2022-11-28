@@ -34,7 +34,8 @@ if (day == 1 || day == 2)
 console.log(day);
 
 // Local storage display of days since last visit
-
+console.log(window.location.href)
+if (window.location.href)
 if (!localStorage.getItem("last_visit"))
 {
     localStorage.setItem("last_visit", Date.now())
@@ -58,7 +59,7 @@ function calculate_difference()
     console.log(difference);
     let days_difference = Math.floor(difference/1000/60/60/24);
 
-    // document.getElementById("diff").innerHTML = days_difference;
+    document.getElementById("diff").innerHTML = days_difference;
 
     localStorage.setItem("last_visit", Date.now());
 }
