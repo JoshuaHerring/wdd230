@@ -1,3 +1,5 @@
+// location path https://joshuaherring.github.io/wdd230/chamber/{file-name}
+
 button = document.getElementById("button");
 dropDown = document.getElementById("dropDown");
 width = screen.width;
@@ -35,7 +37,8 @@ console.log(day);
 
 // Local storage display of days since last visit
 console.log(window.location.href)
-if (window.location.href)
+if (window.location.href == "https://joshuaherring.github.io/wdd230/chamber/discover.html" || window.location.href == "http://localhost:5500/chamber/discover.html")
+{
 if (!localStorage.getItem("last_visit"))
 {
     localStorage.setItem("last_visit", Date.now())
@@ -45,6 +48,7 @@ if (!localStorage.getItem("last_visit"))
 else
 {
     calculate_difference();
+}
 }
 
 function calculate_difference()
@@ -108,4 +112,7 @@ function kelvinToFarenheight(kelvin)
     return farenheight
 
 }
+if (window.location.href == "https://joshuaherring.github.io/wdd230/chamber/index.html" || window.location.href == "http://localhost:5500/chamber/index.html")
+{
 getWeather(api_url)
+}
