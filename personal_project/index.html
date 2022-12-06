@@ -4,26 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Rexburg hiking locations with weather hiking locations and details about Rexburg and it's author Josh Herring">
+    <title>Rexburg Hiking</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
 </head>
-<body>
-    <header>
-        <nav>
 
+<body>
+
+    <header>
+        <img width="100px" src="./images/logo.png" alt="Rexburg Hiking logo">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./locations.html">Locations</a>
+            <a href="./weather.html">Weather</a>
+            <a href="./about_us.html">About me</a>
+            <a href="./feedback.html">Feedback</a>
         </nav>
     </header>
 
+    <img class="hero_img" src="./images/cress_creek_sunset.webp" alt="Sunset Picture at cress creek">
 
     <main>
-        <img src="" alt="">
-        <div class="text"></div>
-        <img src="" alt="">
-        <div class="text"></div>
+        <div class="card_holder">
+        <img class="card_img" width="500px" src="./images/webster_damn.jpg" alt="webster_damn">
+        <h2>Hiking in Rexburg</h2>
+        <p class="card_text">Have you ever wanted to go on a hike in rexburg but you don't know where to go? Well There is no need to worry anymore. This website will help you find quality and close locations to go for a hike around Rexburg tested by long lived residents of the town.</p>
+        </div>
+
+        <hr>
+
+        <div class="card_holder">
+        <img class="card_img" width="500px" src="./images/cress_creek.jpg" alt="">
+        <h2>Navigating this website</h2>
+        <ul>
+            <li>
+                <a href="./locations.html">Locations Page:</a>
+                <p>Here you can browse our large selection of different hiking locations around rexburg and find a spot that is just right for you and your adventerous mood.</p>
+            </li>
+            <li>
+                <a href="./weather.html">Weather Page:</a>
+                <p>If your going hiking you are going to want to check the weather. Quick and easy you can see the weather around rexburg here on our page.</p>
+            </li>
+            <li>
+                <a href="./about_us.html">About me Page:</a>
+                <p>This page is about me the author of the page Josh Herring</p>
+            </li>
+            <li>
+                <a href="./feedback.html">Feedback Page:</a>
+                <p>Is ther something we can improve on or a problem you are having? Go ahead and submit a form to let us know.</p>
+            </li>
+        </ul>
+        </div>
+
+
+
     </main>
 
 
     <footer>
-
+        <p>&copy<span id="current_date"></span></p>
+        <p id="last_modified"></p>
+        <img width="50px" src="./images/logo.png" alt="Rexburg Hiking Logo">
     </footer>
+<script src="./js/index.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
