@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <img width="100px" src="./images/logo.png" alt="Rexburg Hiking logo">
+        <img width="100" src="./images/logo.png" alt="Rexburg Hiking logo">
         <nav>
             <a href="./index.html">Home</a>
             <a href="./locations.html">Locations</a>
@@ -22,15 +22,54 @@
         </nav>
     </header>
 
+<main>
+    <img id="me_tall" class="hero_img" src="./images/logo.png" alt="Large logo of rexburg hiking">
 
-    <form action="./thank-you.html"></form>
+    <form method="get" action="./thank-you.html">
+
+    <fieldset>
+        <legend>Let us know how we can improve</legend>
+
+        <label class="radio">
+            <input type="radio" name="rating" value="1-star"><span class="star">&#11088;</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="rating" value="2-star"><span class="star">&#11088;</span><span class="star">&#11088;</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="rating" value="3-star"><span class="star">&#11088;</span><span class="star">&#11088;</span><span class="star">&#11088;</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="rating" value="4-star"><span class="star">&#11088;</span><span class="star">&#11088;</span><span class="star">&#11088;</span><span class="star">&#11088;</span>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="rating" value="5-star"><span class="star">&#11088;</span><span class="star">&#11088;</span><span class="star">&#11088;</span><span class="star">&#11088;</span><span class="star">&#11088;</span>
+        </label>
+
+        <label>
+            Additional Feedback<textarea name="feedback" cols="30" rows="10"></textarea>
+        </label>
+
+    </fieldset>
+
+    <label class="submit">
+        Send Feedback <input class="submit" type="submit">
+    </label>
+
+    </form>
+
+</main>
 
     <footer>
-        <p>&copy<span id="current_date"></span></p>
+        <p>&copy;<span id="current_date"></span></p>
         <p id="last_modified"></p>
-        <img width="50px" src="./images/logo.png" alt="Rexburg Hiking Logo">
+        <img width="50" src="./images/logo.png" alt="Rexburg Hiking Logo">
     </footer>
-<script src="./js/date.js"></script>
+<script src="./js/main.js"></script>
 
 </body>
 </html>
