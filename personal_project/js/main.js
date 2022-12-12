@@ -9,4 +9,3 @@ let last_change = document.lastModified;
 
 current_date.innerHTML = year;
 last_modified.innerHTML = last_change;
-

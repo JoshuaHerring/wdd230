@@ -105,9 +105,16 @@ hr
 
 .card_img
 {
-    width: 100%;
-    border: 8px solid #431A10;
+    width: 96%;
+    background-color: #431A10;
+    padding: 2%;
     border-radius: 100px;
+}
+
+.card_link
+{
+    display: block;
+    margin-top: 20px;
 }
 
 .body_raw_text
@@ -121,6 +128,7 @@ hr
 
 ul
 {
+    
     list-style: none;
 }
 
