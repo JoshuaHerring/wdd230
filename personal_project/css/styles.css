@@ -69,6 +69,8 @@ nav a:hover
 {
     margin-top: 280px;
     margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 5px 10px;
     grid-column: 1/2;
     grid-row: 1/2;
