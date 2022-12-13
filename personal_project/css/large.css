@@ -2,7 +2,23 @@
 {
     .hero_img
     {
-        height: 700px;
+        height: 100%;
     }
 
+    .hero_text
+    {
+        margin-top: 500px;
+    }
+
+    .main_div
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #big_logo
+    {
+        height: 600px;
+        width: 600px;
+    }
 }

@@ -5,5 +5,9 @@
         flex-direction: row;
     }
 
+    .hero_text
+    {
+        margin-top: 380px;
+    }
 
 }

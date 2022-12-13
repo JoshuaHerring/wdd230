@@ -7,6 +7,8 @@
     <title>Rexburg Hiking</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
 
 </head>
 <body>
@@ -21,13 +23,47 @@
             <a href="./feedback.html">Feedback</a>
         </nav>
     </header>
+
+    <main>
+        
+        <img class="hero_img" src="./images/menan_butte.jpg" alt="">
+        
+        <div class="weather_holder">
+            
+            <img id="weather_icon"></img>
+            
+            <div class="weather_item">
+            <h2 class="weather_style">Tempurature:</h2>
+            <p class="weather_style" id="temp"></p>
+            </div>
+
+            <div class="weather_item">
+            <h2 class="weather_style">Clouds:</h2>
+            <p class="weather_style" id="cloud_coverage"></p>
+            </div>
+
+            <div class="weather_item">
+            <h2 class="weather_style">Wind Speed:</h2>
+            <p class="weather_style" id="wind_speed"></p>
+            </div>
+
+            <div class="weather_item">
+            <h2 class="weather_style">Wind Chill:</h2>
+            <p class="weather_style" id="wind_chill"></p>
+            </div>
+
+        </div>
+
+    </main>
     
     <footer>
         <p>&copy;<span id="current_date"></span></p>
         <p id="last_modified"></p>
         <img width="50" src="./images/logo.png" alt="Rexburg Hiking Logo">
     </footer>
-<script src="./js/main.js"></script>
+
+    <script src="./js/weather.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 </html>

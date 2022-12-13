@@ -57,13 +57,13 @@ nav a:hover
     grid-row: 1/2;
 }
 
-#me_tall
+/* .me_tall
 {
     height: 98%;
     padding: 1%;
     background-color: #431A10;
     width: 98%;
-}
+} */
 
 .hero_text
 {
@@ -169,4 +169,26 @@ textarea
 .star
 {
     margin-left: 10px;
+}
+
+.weather_item
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather_style
+{
+    background-color: #431A10;
+    color: #FFFCF7;
+    border: #B88059 4px solid;
+    padding: 20px 20%;
+    margin: 30px 0;
+}
+
+#weather_icon
+{
+    background-color: #431A10;
+    color: #FFFCF7;
+    border: #B88059 4px solid;
 }
