@@ -71,7 +71,8 @@ function calculate_difference()
 
 // Join page date handling
 const currentDate = new Date();
-// document.querySelector("#formDate").value = currentDate;
+FormDate = document.querySelector("#formDate")
+FormDate.value = currentDate;
 
 
 // Weather handaling happens here
