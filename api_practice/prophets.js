@@ -1,6 +1,6 @@
 /// Async await fetch
 
-const url = "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json"
+const url = "https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json"
 
 async function getProphets(requestURL)
 {
